@@ -1,12 +1,8 @@
-# 📋 Menu & Instagram Setup Guide
-
 ## 🍽️ Google Sheets Menu Setup
 
 Your customers can manage their menu using **Google Sheets** - no coding required!
 
 ---
-
-## 🚀 Google Sheets Menu Setup
 
 ### Step 1: Create Google Sheet
 
@@ -93,4 +89,4 @@ Original: https://drive.google.com/file/d/FILE_ID/view
 Modified: https://drive.google.com/uc?export=view&id=FILE_ID
 ```
 
-**Need help? Contact me! 📞**
+**Your Menu is ready! 🎉**
