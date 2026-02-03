@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cream: #f5f1e8;
+  --beige: #e8dcc8;
+  --brown: #8b6f47;
+  --dark-brown: #6b5439;
+  --burgundy: #7d3c3c;
+  --dark-burgundy: #5c2626;
+  --slate: #7a8b99;
+  --light-grey: #f9f7f4;
+  
+  /* Font variables */
+  --primary-font: 'Tajawal', 'Arial', sans-serif;
+  --secondary-font: 'Poppins', 'Tajawal', sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  background: var(--cream);
+  color: var(--dark-brown);
+  overflow-x: hidden;
+  line-height: 1.6;
+  padding-top: 80px;
+}
+
+[dir="rtl"] body {
+  font-family: var(--primary-font);
+}
+
+.app {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body, html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; 
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+  button, a, input, textarea {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+
+  * {
+    -webkit-tap-highlight-color: rgba(125, 60, 60, 0.2);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0) rotate(0deg); 
+  }
+  50% { 
+    transform: translateY(-20px) rotate(10deg); 
+  }
+}
+a[href*="elfsight.com"],
+a[title*="Free Instagram"],
+a[title*="Instagram Feed Widget"],
+a[href*="utm_source=websites"],
+a[href*="utm_campaign=free-widget"],
+*[style*="z-index:99999"][style*="background-color:rgba(238, 238, 238, 0.9)"],
+*[style*="transform:translateX(-50%)"][style*="z-index:99999"],
+*[style*="animation:none!important"][href*="elfsight"],
+div > a[style*="position:relative!important"][style*="z-index:99999"],
+body > a[href*="elfsight.com"],
+#root > a[href*="elfsight.com"],
+.app > a[href*="elfsight.com"],
+[class*="elfsight"] + a,
+[class*="elfsight"] ~ a,
+[id*="elfsight"] + a,
+[id*="elfsight"] ~ a {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  position: absolute !important;
+  left: -99999px !important;
+  top: -99999px !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+  z-index: -99999 !important;
+  clip: rect(0,0,0,0) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  text-indent: -99999px !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+}
+
+a[href*="elfsight.com"] svg,
+a[title*="Free Instagram"] svg,
+*[style*="z-index:99999"] svg {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+body::after,
+#root::after,
+.app::after {
+  content: none !important;
+}
+
+[style*="font-family:Roboto,Arial,Sans-serif"][style*="z-index:99999"],
+[style*="border-radius:40px"][style*="background-color:rgba(238, 238, 238, 0.9)"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+a[style*="animation:none!important"] {
+  animation: none !important;
+  display: none !important;
+  visibility: hidden !important;
+}
