@@ -1,7 +1,0 @@
-# Ignore everything
-*
-
-# But don't ignore these files and folders
-!dist/
-!*.md
-!.gitignore
